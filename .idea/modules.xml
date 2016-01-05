@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android Active Annotation/Android Active Annotation.iml" filepath="$PROJECT_DIR$/Android Active Annotation/Android Active Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android Active Annotation Base/Android Active Annotation Base.iml" filepath="$PROJECT_DIR$/Android Active Annotation Base/Android Active Annotation Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidActiveAnnotation.iml" filepath="$PROJECT_DIR$/AndroidActiveAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sample/Sample.iml" filepath="$PROJECT_DIR$/Sample/Sample.iml" />
+    </modules>
+  </component>
+</project>
