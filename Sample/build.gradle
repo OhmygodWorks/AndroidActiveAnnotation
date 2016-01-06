@@ -7,6 +7,9 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
 
+    dataBinding {
+        enabled = true
+    }
     defaultConfig {
         applicationId "android.active.annotation.sample"
         minSdkVersion 14
@@ -23,9 +26,10 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'org.eclipse.xtend:org.eclipse.xtend.lib:2.9.1'
+    compile project(':Android Active Annotation')
 }
 
